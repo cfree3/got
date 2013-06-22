@@ -1,0 +1,26 @@
+#!/bin/sh
+# got | Curtis Free (http://curtisfree.com)
+# A simple, configurable Git wrapper.
+
+# dependency check
+if ! type git &>/dev/null; then
+    echo 'Oops! Make sure that `git` is in your ${PATH}.'
+    exit 1
+fi
+
+# break command into parts
+cmd=${1}; shift; args=${@}
+
+# got.log.*
+if [ "${cmd}" == "log" ]; then
+
+    # git.log.graph
+    if [ "$(git config got.log.graph)" == "true" ]; then
+        args="--graph ${args}"
+    fi
+
+fi
+
+# and GO!
+git ${cmd} ${args}
+
