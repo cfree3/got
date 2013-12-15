@@ -16,7 +16,7 @@ For example:
 
 ```shell
 mkdir ~/apps && cd ~/apps
-git clone https://github.com/cfree3/got
+git clone https://github.com/cfree3/got.git
 echo 'alias git="~/apps/got/got"' >> ~/.zshrc
 ```
 
@@ -54,7 +54,7 @@ other values are ignored.
 
 License
 -------
-_Draw a Blank_ is released under the [MIT][mit] license. Nothing special here.
+_Got_ is released under the [MIT][mit] license. Nothing special here.
 
 DISCLAIMER
 ----------
