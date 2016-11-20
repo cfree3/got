@@ -2,7 +2,7 @@ Got
 ===
 A simple, configurable Git wrapper.
 
-> Git it? ***Got** it.* Good!
+> Git it? Got it. Good!
 
 Installation
 ------------
@@ -54,16 +54,11 @@ other values are ignored.
 
 License
 -------
-_Got_ is released under the [MIT][mit] license. Nothing special here.
+_Got_ is released under the MIT license (see `LICENSE.md`).
 
 DISCLAIMER
 ----------
 I give no assurance of this utility's security, and I do not guarantee that it will not zap your
 computer and fry your homedir. _Use at your own risk._
 
-Bugs
-----
-This is a "works-for-me-maybe" project: I do not guarantee that any bugfixing will occur.
-
 [git]: http://git-scm.com
-[mit]: http://www.tldrlegal.com/l/MIT
